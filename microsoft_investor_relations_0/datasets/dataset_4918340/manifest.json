@@ -1,0 +1,28 @@
+{
+  "ds_type": "build_text_ds",
+  "ds_id": "4918340",
+  "training_samples": 1968,
+  "training_files": [
+    "training_samples_0.jsonl",
+    "training_samples_text_0.txt"
+  ],
+  "validation_samples": 246,
+  "validation_files": [
+    "validation_samples_0.jsonl",
+    "validation_samples_text_0.txt"
+  ],
+  "testing_samples": 246,
+  "testing_files": [
+    "testing_samples_0.jsonl",
+    "testing_samples_text_0.txt"
+  ],
+  "batches": 1,
+  "prompt_wrapper": "None",
+  "description": "Core unsupervised text chunk dataset useful for text embedding fine-tuning and domain adaptation with token span size between 100 - 500",
+  "features": [
+    "text",
+    "file_source",
+    "sample_number"
+  ],
+  "time_stamp": "Fri Aug 23 22:36:36 2024"
+}
